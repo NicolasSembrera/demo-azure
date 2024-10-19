@@ -10,7 +10,7 @@ import java.util.List;
 @Controller
 public class VehiculoController {
 
-    @GetMapping("/vehiculos")
+    @GetMapping("/")
     public String obtenerVehiculos(Model model){
 
         List<String> listaVehiculo = new ArrayList<String>();
