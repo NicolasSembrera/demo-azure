@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Carros</title>
+</head>
+<body>
+    <div>
+        <h1>Mis Vehiculos</h1>
+        <ul>
+            <li th:each="elemento : ${lista}" th:text="${elemento}"></li>
+        </ul>
+    </div>
+</body>
+</html>
